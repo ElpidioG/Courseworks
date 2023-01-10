@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulario web basico</title>
+</head>
+<body>
+    <h1 align="center">Formulario web basico</h1>
+    <hr>
+<table align="center">
+    <td>
+    <form action="#">
+        <fieldset>
+            <legend>Información del usuario</legend>
+            <div>
+              <label for="usuario">Nombre:</label>
+    <input id="usuario" type="text" name="usuario"
+        size="20" maxsize="30" value="Nombre de usuario...">
+</div><br>
+            <div>
+                <label for="email">Dirección e-mail:</label>
+                <input id="email" type="text" name="email">
+            </div><br>
+            <div>
+  
+<div>
+    <label for="ciudad">Ciudad:</label>
+    <select name="ciudad">
+        <option value="TE">Teruel</option>
+        <option value="VA">Valencia</option>
+        <option value="BA">Barcelona</option>
+        <option value="M">Madrid</option>
+        <option value="" selected="selected">Selecciona ciudad...</option>
+    </select>
+</div><br>
+<div>Aficiones: <br>
+    <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+    <label for="deportes">Deportes</label><br>
+    <input type="checkbox" id="coches" name="aficiones" value="coches">
+    <label for="coches">Coches</label><br>
+    <input type="checkbox" id="musica" name="aficiones" value="musica">
+    <label for="musica">Música</label><br>
+</div><br>
+<div>Sexo: <br>
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="femenino" name="sexo" value="femenino">
+    <label for="femenino">Femenino</label><br>
+</div><br>
+<div> <br>
+    <input type="submit" name="submit" value="Enviar información">
+    <input type="reset" name="reset" value="Limpiar formulario">
+</div><br>
+        </fieldset>
+    </form>
+</td>
+</table>
+</body>
+</html>

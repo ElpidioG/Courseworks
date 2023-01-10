@@ -1,0 +1,23 @@
+<style type="text/css">
+
+     }
+   
+
+
+    td,tr{ font-size: 35px; color:rgb(255,255,255); ; text-align: center;    height: 130px;
+        width: 420px;
+}
+    td{ color: black;}
+     body{background-size: 1600px 900px;}
+     tr{background-color:rgb(255,160,122,0.7)}
+     a:hover { font-size: 40px}
+             button{font-size: 35px}  button{background-color: rgb(255,160,122,0.7)}
+    button{border-width: 2}
+  
+
+    button{font-style: white}
+}
+
+.color{color: white}
+
+</style>
